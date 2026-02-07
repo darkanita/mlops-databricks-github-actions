@@ -28,7 +28,7 @@ This educational project demonstrates how to build a production-ready MLOps pipe
 ## ✨ Features
 
 - **Automated CI/CD Pipeline**: GitHub Actions orchestrates the entire ML workflow
-- **Databricks Integration**: Leverages Databricks Community Edition for scalable compute
+- **Databricks Integration**: Leverages Databricks Free Edition for scalable compute
 - **MLflow Tracking**: Complete experiment tracking and model versioning
 - **Modular Design**: Separate notebooks for data preparation, training, and evaluation
 - **Production Ready**: Follows MLOps best practices for model lifecycle management
@@ -59,7 +59,7 @@ This educational project demonstrates how to build a production-ready MLOps pipe
          │ Execute notebooks via API
          ▼
 ┌─────────────────────────────────────┐
-│   Databricks Community Edition      │
+│        Databricks Free Edition      │
 │  ┌────────────┐  ┌────────────────┐ │
 │  │ Notebooks  │  │ Spark Cluster  │ │
 │  └────────────┘  └────────────────┘ │
@@ -73,7 +73,7 @@ This educational project demonstrates how to build a production-ready MLOps pipe
 
 ### Accounts & Access
 - GitHub account (free)
-- Databricks Community Edition account ([Sign up here](https://community.cloud.databricks.com/))
+- Databricks Community Free account ([Sign up here](https://community.cloud.databricks.com/))
 
 ### Local Development (Optional)
 - Python 3.9+
@@ -83,8 +83,8 @@ This educational project demonstrates how to build a production-ready MLOps pipe
 
 ### 1. Fork/Clone This Repository
 ```bash
-git clone https://github.com/yourusername/mlops-databricks-starter.git
-cd mlops-databricks-starter
+git clone https://github.com/darkanita/mlops-databricks-github-actions.git
+cd mlops-databricks-github-actions
 ```
 
 ### 2. Set Up Databricks
